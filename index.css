@@ -10,8 +10,8 @@ header {
     background-color: #9c722e;
     color: white;
     display: flex;
-    justify-content: space-between;
     border-top-right-radius: 34%;
+    justify-content: space-between;
     border: #ccb073 dotted 8px;
     align-items: center;
     overflow-x: hidden;
@@ -38,25 +38,33 @@ header nav ul {
     gap: 50px;
 }
 header nav ul li {
-    border-left: #fff8f8 solid 4px;
-    transition: border-left 0.3s ease;
+    flex: 1;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-right: 2vw;
+    border-radius: 10%;
 }
 
 header nav a {
+    border-left: #fff8f8 solid 4px;
+    border-right: #fff8f8 solid 4px;
     color: white;
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    padding: 15px 45px;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
+    display: block;
+    border-radius: 5%;
+    width: 200px;
+    transition: border-right 0.3s ease;
 }
 
 header nav ul li:hover {
     a{
-        background-color: #49462e;
+        border-left: transparent solid 4px;
+        border-right: transparent solid 4px;
     }
-    border-left: transparent solid 4px;
+    background-color: #49462e;
 }
 
 #home .hero {
@@ -83,6 +91,7 @@ header nav ul li:hover {
     font-size: 4vmax;
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
+    letter-spacing: 10px;
 }
 
 #featured-products {
@@ -108,7 +117,15 @@ header nav ul li:hover {
     width: 250px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
+
+.product:hover{
+    top: -10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
 
 .product img {
     width: 100%;
@@ -243,9 +260,19 @@ footer button:hover {
 }
 
 #contact-form button:hover {
-    background-color: #3e2a47;
+    background-color: #9f94a4;
 }
 
 #map iframe{
     align-items: center;
+}
+
+@media (max-width: 500px) {
+    header {
+        justify-content: flex-start;
+    }
+
+    header nav ul {
+        gap: 10px;
+    }
 }

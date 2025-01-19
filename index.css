@@ -18,6 +18,11 @@ header {
     padding: 10px;
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 2em;
+}
+
 header .logo img {
     margin-left: 45px;
     padding: 5px;
@@ -70,6 +75,7 @@ header nav ul li:hover {
 #home .hero {
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 #home .hero img {
@@ -81,17 +87,22 @@ header nav ul li:hover {
 
 #home .hero h1 {
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(224, 200, 166);
     background-color:rgba(17, 11, 2, 0.658);
     border-radius: 5%;
-    font-size: 60px;
-    font-size: 4vmax;
+    font-size: clamp(24px, 9vw, 120px);
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
     letter-spacing: 10px;
+}
+
+#home #featured-products h2 {
+    font-size:80px;
+    margin: 40px;
+    font-weight: 700;
 }
 
 #featured-products {
@@ -229,27 +240,103 @@ footer #nav a:hover {
     margin: 10px 0;
 }
 
+#about {
+    margin: auto;
+    width: 90%;
+}
 #about h1 {
     text-align: center;
-    font-size: 2.5rem;
-    margin: 30px 0;
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 30px auto;
 }
 
-#cafe-story, #meet-the-team, #mission {
-    margin: 30px 20px;
+#about #container {
+    margin: 4% 0 5% 0;
+    padding: 2% 5% 3% 5%;
+    background-color: #d9bca5;
+    border-radius: 5%;
+}
+
+#about hr {
+    border: none;
+    border-top: 4px solid #6b4f2a;
+    border-radius: 20%;
+    width: 100%;
+
+}
+
+#cafe-story {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 30px;
+    border: #6b4f2a, dashed, 15px;
+    border-radius: 7.25%;
+    padding: 20px;
+    text-align: justify;
+}
+
+#cafe-story img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+#cafe-story h2 {
+    font-size: 60px;
+}
+
+#meet-the-team, #mission{
+    margin-top: 150px;
+}
+
+#meet-the-team h2 {
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#meet-the-team .member {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    color: #000000
 }
 
 #meet-the-team .team-member {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin: 20px;
+    gap: 20px;
 }
 
 #meet-the-team .team-member img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 50%;
+    border: #6b4f2a solid 5px;
+}
+
+#mission {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    text-align: justify;
+    align-items: center;
+}
+
+#mission img {
+    width: 100%;
+    height: auto;
+    max-width: 90%;
+    border-radius: 10%;
+}
+
+#mission h2 {
+    font-size: 40px;
 }
 
 #contact h1 {

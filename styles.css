@@ -7,56 +7,32 @@ body {
 }
 
 header {
-    background-color: #9c722e;
+    background-color: #c69546; /* Dark purple */
     color: white;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
-    border-top-right-radius: 34%;
-    border: #ccb073 dotted 8px;
     align-items: center;
-    overflow-x: hidden;
-    padding: 10px;
 }
 
 header .logo img {
-    margin-left: 45px;
-    padding: 5px;
-    height: 90px;
-    border-radius: 100%;
-    border: #ccb073 solid 2px;
+    height: 100px;
 }
 
-header nav {
-    overflow-x: auto;
-    white-space: nowrap;
-    scrollbar-width: thin;
-    scrollbar-color: #6b4f2a transparent;
-}
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 50px;
-}
-header nav ul li {
-    border-left: #fff8f8 solid 4px;
-    transition: border-left 0.3s ease;
+    gap: 20px;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;
-    padding: 15px 45px;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
 }
 
-header nav ul li:hover {
-    a{
-        background-color: #49462e;
-    }
-    border-left: transparent solid 4px;
+header nav a:hover {
+    color: #3900f4; 
 }
 
 #home .hero {
@@ -73,14 +49,11 @@ header nav ul li:hover {
 
 #home .hero h1 {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(224, 200, 166);
-    background-color:rgba(17, 11, 2, 0.658);
-    border-radius: 5%;
-    font-size: 60px;
-    font-size: 4vmax;
+    color: white;
+    font-size: 10;
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
 }
@@ -126,7 +99,7 @@ header nav ul li:hover {
 }
 
 footer {
-    background-color: #7e6236;
+    background-color: #3e2a47;
     color: white;
     padding: 30px;
     text-align: center;
@@ -139,7 +112,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #cfb786;
+    color: #f4a300;
 }
 
 footer .newsletter {
@@ -164,7 +137,7 @@ footer button {
 }
 
 footer button:hover {
-    background-color: #ccb966;
+    background-color: #3e2a47;
 }
 
 #menu h1 {

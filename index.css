@@ -127,7 +127,7 @@ header nav ul li:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     }
 
-.product img {
+.product img, #menu .item img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -147,6 +147,7 @@ footer {
     color: white;
     padding: 30px;
     text-align: center;
+    margin-top: 50px;
 }
 
 footer a {
@@ -173,7 +174,7 @@ footer input[type="email"] {
 
 footer button {
     padding: 10px 20px;
-    background-color: #f4a300;
+    background-color: #ae7b15;
     color: white;
     border: none;
     border-radius: 5px;
@@ -183,21 +184,42 @@ footer button {
 footer button:hover {
     background-color: #ccb966;
 }
-
-#menu h1 {
+footer #nav a {
+    padding: 5px;
+}
+footer #nav a:hover {
+    background-color: #2f2d2450;
+    border-radius: 20%;
+}
+#menu {
     text-align: center;
-    font-size: 2.5rem;
+    margin: auto;
+    width: 70%;
+}
+#menu h1 {
+    font-weight: 900;
+    font-size: 5rem;
     margin: 30px 0;
 }
-
+#menu .item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
 .menu-item {
     background-color: #fff;
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
     box-shadow:  4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
-
+.menu-item:hover {
+    top: -10px;
+    box-shadow:  4px 10px rgba(0, 0, 0, 0.2);
+}
 .menu-item h3 {
     font-size: 1.5rem;
 }
@@ -267,7 +289,7 @@ footer button:hover {
     align-items: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
     header {
         justify-content: flex-start;
     }

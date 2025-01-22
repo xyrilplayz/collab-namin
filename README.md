@@ -36,7 +36,7 @@ Owner & Founder. Passionate about coffee and community.
   <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png" alt="facebook" width = "30" style ="border-radius: 50%;">
 </a>
 <a href="https://github.com/Relova-John">
-  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Github.png" alt="github" width = "30" style ="border-radius: 50%;">   
+  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png" alt="github" width = "30" style ="border-radius: 50%;">   
 </a>
 
 <img src="barista.jpg" alt="barista" width = "150" style ="border-radius: 50%;"> 
@@ -49,5 +49,5 @@ Head Barista. Creating the perfect cup of coffee, every time.
   <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png" alt="facebook" width = "30" style ="border-radius: 50%;">
 </a>
 <a href="https://github.com/xyrilplayz">
-  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Github.png" alt="github" width = "30" style ="border-radius: 50%;">   
+  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png" alt="github" width = "30" style ="border-radius: 50%;">   
 </a>

@@ -26,24 +26,28 @@ Pastries that is freshly made to pair with coffee.
 Our coffee is carefully and skillfully made, So you can Sip, Relax and repeat.  
 
 #### About The Authors
-<img src="owner.png" alt="owner" width = "150" style ="border-radius: 50%;">    
- 
-**John Michael Relova   
+<img src="owner.png" alt="owner" width = "150" height = "150" style ="border-radius: 50%;">    
+
+**John Michael Relova
 202280172@psu.palawan.edu.ph**  
 Owner & Founder. Passionate about coffee and community.
 
+<a href="https://www.facebook.com/johnmichael.relova">
+  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png" alt="facebook" width = "30" style ="border-radius: 50%;">
+</a>
+<a href="https://github.com/Relova-John">
+  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Github.png" alt="github" width = "30" style ="border-radius: 50%;">   
+</a>
+
 <img src="barista.jpg" alt="barista" width = "150" style ="border-radius: 50%;"> 
-  
-  
+
 **Xyril Francisco  
 202280001@psu.palawan.edu.ph**  
 Head Barista. Creating the perfect cup of coffee, every time.  
 
-<img src="facebook.png" alt="facebook" width = "30" style ="border-radius: 50%;">  
-  
-  <a href="https://www.facebook.com/johnmichael.relova">John Michael Relova</a>  
-  <a href="https://www.facebook.com/xyril.francisco.1">Xyril Francisco</a>  
-
-<img src="github.png" alt="github" width = "30" style ="border-radius: 50%;">   
-  
-  <a href="https://github.com/xyrilplayz/collab-namin.git">Github_Collaboration_Repository</a>
+<a href="https://www.facebook.com/xyril.francisco.1">
+  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png" alt="facebook" width = "30" style ="border-radius: 50%;">
+</a>
+<a href="https://github.com/xyrilplayz">
+  <img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Github.png" alt="github" width = "30" style ="border-radius: 50%;">   
+</a>

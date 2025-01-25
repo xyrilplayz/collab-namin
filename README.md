@@ -9,19 +9,19 @@ COZYCUP Coffee House is a community-focused café dedicated to serving high-qual
 * Relaxing Environment  
 
 ### Screen Captures
-<img src="interior.jpg" alt="interior" width = "150" style ="border-radius: 50%;">  
+![Cafe Interior](/interior.jpg "See Our Cafe Looks")
   
 Cozy athmosphere that will make you relax while sipping a cup of coffee.  
+   
+![Cafe Espresso](/espresso.jpg "See Our Espresso")
 
-<img src="espresso.jpg" alt="menu1" width = "150" style ="border-radius: 50%;">    
-  
 High Quality Coffee made by a certified barista.  
 
-<img src="croissant.jpg" alt="menu2" width = "150" style ="border-radius: 50%;">    
+![Cafe Croissant](/croissant.jpg "See Our Croissant")
   
 Pastries that is freshly made to pair with coffee.  
   
-<img src="mission.png" alt="mission" width = "150" style ="border-radius: 50%;">  
+![Cafe Workshop](/mission.png "See How We Make Coffee")
 
 Our coffee is carefully and skillfully made, So you can Sip, Relax and repeat.  
 

@@ -41,7 +41,7 @@ Owner & Founder. Passionate about coffee and community.
 
 <img src="barista.jpg" alt="barista" width = "150" style ="border-radius: 50%;"> 
 
-**Xyril Francisco  
+**Xyril Francisco
 202280001@psu.palawan.edu.ph**  
 Head Barista. Creating the perfect cup of coffee, every time.  
 
